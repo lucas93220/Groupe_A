@@ -1,0 +1,4 @@
+
+EMPLOYE : _idemployee_, nom, prénom, mail, password, datearrivée, datedépart, habilitation, #idligue
+APPARTENIR, 0N LIGUE, 01 EMPLOYE:
+LIGUE : _idligue_, nomligue

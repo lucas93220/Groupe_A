@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="328" height="204" viewBox="0 0 328 204" xmlns="http://www.w3.org/2000/svg">
+<rect id="frame" x="0" y="0" width="328" height="204" fill="#ffffbf" stroke="none" stroke-width="0"/>
+
+<!-- Association APPARTENIR -->
+<g class="page_0_vjxMOZSV diagram_page" visibility="visible">
+	<line x1="286" y1="102" x2="175" y2="102" stroke="#66c2a5" stroke-width="2"/>
+	<text x="226" y="119" fill="#d53e4f" font-family="Verdana" font-size="12">0,N</text>
+	<line x1="53" y1="102" x2="175" y2="102" stroke="#66c2a5" stroke-width="2"/>
+	<text x="102" y="119" fill="#d53e4f" font-family="Verdana" font-size="12">0,1</text>
+	<g>
+		<path d="M207 77 a14 14 90 0 1 14 14 V102 h-92 V91 a14 14 90 0 1 14 -14" fill="#abdda4" stroke="#abdda4" stroke-width="0"/>
+		<path d="M221 102 v11 a14 14 90 0 1 -14 14 H143 a14 14 90 0 1 -14 -14 V102 H92" fill="#e6f598" stroke="#e6f598" stroke-width="0"/>
+		<rect x="129" y="77" width="92" height="50" fill="none" rx="14" stroke="#66c2a5" stroke-width="2"/>
+		<line x1="129" y1="102" x2="221" y2="102" stroke="#66c2a5" stroke-width="1"/>
+		<text x="136" y="94.75" fill="#000" font-family="Verdana" font-size="12">APPARTENIR</text>
+	</g>
+</g>
+
+<!-- Entity EMPLOYE -->
+<g class="page_0_vjxMOZSV diagram_page" visibility="visible">
+	<g>
+		<rect x="9" y="9" width="88" height="25" fill="#fdae61" stroke="#fdae61" stroke-width="0" opacity="1"/>
+		<rect x="9" y="34" width="88" height="161" fill="#fee08b" stroke="#fee08b" stroke-width="0" opacity="1"/>
+		<rect x="9" y="9" width="88" height="186" fill="none" stroke="#f46d43" stroke-width="2" opacity="1"/>
+		<line x1="9" y1="34" x2="97" y2="34" stroke="#f46d43" stroke-width="1"/>
+	</g>
+	<text x="25" y="26.75" fill="#000" font-family="Verdana" font-size="12">EMPLOYE</text>
+	<text x="14" y="51.8" fill="#000" font-family="Verdana" font-size="12">idemployee_</text>
+	<text x="14" y="68.8" fill="#000" font-family="Verdana" font-size="12">nom</text>
+	<text x="14" y="85.8" fill="#000" font-family="Verdana" font-size="12">prénom</text>
+	<text x="14" y="102.8" fill="#000" font-family="Verdana" font-size="12">mail</text>
+	<text x="14" y="119.8" fill="#000" font-family="Verdana" font-size="12">password</text>
+	<text x="14" y="136.8" fill="#000" font-family="Verdana" font-size="12">datearrivée</text>
+	<text x="14" y="153.8" fill="#000" font-family="Verdana" font-size="12">datedépart</text>
+	<text x="14" y="170.8" fill="#000" font-family="Verdana" font-size="12">habilitation</text>
+	<text x="14" y="187.8" fill="#000" font-family="Verdana" font-size="12">#idligue</text>
+</g>
+
+<!-- Entity LIGUE -->
+<g class="page_0_vjxMOZSV diagram_page" visibility="visible">
+	<g>
+		<rect x="253" y="68" width="66" height="25" fill="#fdae61" stroke="#fdae61" stroke-width="0" opacity="1"/>
+		<rect x="253" y="93" width="66" height="43" fill="#fee08b" stroke="#fee08b" stroke-width="0" opacity="1"/>
+		<rect x="253" y="68" width="66" height="68" fill="none" stroke="#f46d43" stroke-width="2" opacity="1"/>
+		<line x1="253" y1="93" x2="319" y2="93" stroke="#f46d43" stroke-width="1"/>
+	</g>
+	<text x="267" y="85.75" fill="#000" font-family="Verdana" font-size="12">LIGUE</text>
+	<text x="258" y="110.8" fill="#000" font-family="Verdana" font-size="12">idligue_</text>
+	<text x="258" y="127.8" fill="#000" font-family="Verdana" font-size="12">nomligue</text>
+</g>
+</svg>
