@@ -1,10 +1,10 @@
 {
-  "width": 328,
+  "width": 320,
   "height": 204,
   "cx": [
-    [ "EMPLOYE", 53 ],
-    [ "APPARTENIR", 175 ],
-    [ "LIGUE", 286 ]
+    [ "EMPLOYE", 49 ],
+    [ "APPARTENIR", 167 ],
+    [ "LIGUE", 278 ]
   ],
   "cy": [
     [ "EMPLOYE", 102 ],
