@@ -1,5 +1,5 @@
 package personnel;
-
+import java.time.LocalDate;
 import java.io.Serializable;
 
 /**
@@ -16,8 +16,9 @@ public class Employe implements Serializable, Comparable<Employe>
 	private String nom, prenom, password, mail;
 	private Ligue ligue;
 	private GestionPersonnel gestionPersonnel;
+	private LocalDate dateArrivee, dateDepart;
 	
-	Employe(GestionPersonnel gestionPersonnel, Ligue ligue, String nom, String prenom, String mail, String password)
+	Employe(GestionPersonnel gestionPersonnel, Ligue ligue, String nom, String prenom, String mail, String password,LocalDate dateArrivee, LocalDate dateDepart)
 	{
 		this.gestionPersonnel = gestionPersonnel;
 		this.nom = nom;
@@ -25,6 +26,8 @@ public class Employe implements Serializable, Comparable<Employe>
 		this.password = password;
 		this.mail = mail;
 		this.ligue = ligue;
+		this.dateArrivee = dateArrivee;
+		this.dateDepart = dateDepart;
 		
 	}
 	
@@ -144,6 +147,22 @@ public class Employe implements Serializable, Comparable<Employe>
 	{
 		return ligue;
 	}
+	/*retourne la date d'arrivee employee*/
+	public LocalDate getdateArrivee() {
+		return dateArrivee;
+	}
+	/*change la date d'arrivee employee*/
+	public void setdateArrivee(LocalDate dateArrivee) {
+		this.dateArrivee = dateArrivee;
+	}
+	/*retourne la date de depart employee*/
+	public LocalDate getdateDepart() {
+		return dateDepart;
+	}
+	/*change la date d'arrivee employee*/
+	public void setdateDepart(LocalDate dateDepart) {
+		this.dateDepart = dateDepart;
+	}
 
 	/**
 	 * Supprime l'employé. Si celui-ci est un administrateur, le root
@@ -175,7 +194,7 @@ public class Employe implements Serializable, Comparable<Employe>
 	@Override
 	public String toString()
 	{
-		String res = nom + " " + prenom + " " + mail + " (";
+		String res = nom + " " + prenom + " " + mail + " (" + dateArrivee + "/" + dateDepart + ") " + "(";
 		if (estRoot())
 			res += "super-utilisateur";
 		else
